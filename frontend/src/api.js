@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const analyzeResume = async (data) => {
   const res = await axios.post(
-    "http://localhost:5000/api/analyze",
+    "https://ai-resume-app-production-fafb.up.railway.app/api/analyze",
     data,
     {
       headers: {
