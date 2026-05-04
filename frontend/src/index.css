@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f1f5f9;
+}
+
+h1, h2, h3 {
+  color: #f8fafc;
+}
+
+textarea {
+  background: #1e293b;
+  color: white;
+}
+
+button {
+  transition: all 0.2s ease;
+}
